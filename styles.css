@@ -222,4 +222,32 @@ code {
   h1 {
     font-size: 24px;
   }
+
+  .file {
+    align-items: flex-start;
+  }
+
+  .file-left {
+    width: 100%;
+  }
+
+  .download {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    padding: 20px;
+  }
+
+  .file {
+    padding: 12px;
+  }
+
+  .file-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
