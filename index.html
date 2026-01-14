@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Проекты школы</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <div>
+          <p class="eyebrow">Проекты школы</p>
+          <h1>Прогресс обучения</h1>
+          <p class="subtitle">
+            Здесь можно скачать задания и посмотреть выполненные материалы.
+          </p>
+        </div>
+        <div class="actions">
+          <a class="ghost" href="#how">Как добавить файлы</a>
+        </div>
+      </header>
+
+      <section class="card">
+        <div class="card-title">Список проектов</div>
+        <div id="list" class="list"></div>
+      </section>
+
+      <section id="how" class="card hint">
+        <div class="card-title">Как добавить файлы</div>
+        <ol>
+          <li>Положи архивы в папку <code>files</code>.</li>
+          <li>Открой <code>data.js</code> и добавь имена файлов.</li>
+          <li>Перезагрузи страницу.</li>
+        </ol>
+      </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
